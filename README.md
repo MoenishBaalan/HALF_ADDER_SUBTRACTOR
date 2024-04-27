@@ -50,8 +50,7 @@ Figure -02 HALF Subtractor
 
 **Program:**
 
-/* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-
+/*
 Developed by:MOENISH BAALAN G
 RegisterNumber: 212223220057*/
 ```
@@ -68,12 +67,13 @@ endmodule
 ```
 
 **RTL Schematic**
-![326155375-700706b3-ad25-4304-a464-98fb11ce708b](https://github.com/MoenishBaalan/HALF_ADDER_SUBTRACTOR/assets/147473396/7d495e5e-ab0d-4d78-a3c3-0b5ee8b649d3)
+![324707218-46ab0b3a-2711-42ed-ba06-5c24c5c753e8](https://github.com/MoenishBaalan/HALF_ADDER_SUBTRACTOR/assets/147473396/fc69f1e0-6bbb-4971-b149-585696c957b3)
 
 
 **Output/TIMING Waveform**
+![324707457-17fa7500-b136-4309-a518-c0df0f652621](https://github.com/MoenishBaalan/HALF_ADDER_SUBTRACTOR/assets/147473396/fc3519e9-a4f6-4140-b32c-8bca79131eae)
 
-![326155382-47b569fb-1abb-47a9-a358-732c010e8e5d](https://github.com/MoenishBaalan/HALF_ADDER_SUBTRACTOR/assets/147473396/b78d98aa-b7b7-4040-b333-f1f9522bc548)
+![324707627-eff5f4c7-50da-404f-ac85-96141cb63328](https://github.com/MoenishBaalan/HALF_ADDER_SUBTRACTOR/assets/147473396/c9cea3f5-79b1-4f77-890e-ab95af82bc0d)
 
 
 **Result:**
