@@ -1,4 +1,8 @@
-# HALF_ADDER_SUBTRACTOR
+**EX-3**
+
+<p align='center'> <b>IMPLEMENTATION OF HALF ADDER AND HALF SUBTRACTOR</b>   
+ 
+**DATE:** 
 
 Implementation-of-Half-Adder-and-Half Subtractor-circuit
 
@@ -33,8 +37,6 @@ Borrow = A’B
 
 Figure -02 HALF Subtractor
 
-**Truthtable**
-
 **Procedure**
 
 1.	Type the program in Quartus software.
@@ -47,34 +49,48 @@ Figure -02 HALF Subtractor
 
 5.	For different input combinations generate the timing diagram.
 
+**Developed by: G.MOENISH BAALAN**  
+**RegisterNumber: 212223220057**
+
+## HALF ADDER
 
 **Program:**
+![322178656-82aece4f-e139-4bad-af63-906f0742b36d](https://github.com/MoenishBaalan/HALF_ADDER_SUBTRACTOR/assets/147473396/7afb6002-3cfb-4026-9737-db3634d00b55)
 
-/*
-Developed by:MOENISH BAALAN G
-RegisterNumber: 212223220057*/
-```
-module HalfAddSub(a,b,sum,carry,D,Bo);
-input a,b;
-output sum,carry,D,Bo;
-wire abar;
-xor G1(sum,a,b);
-and G2(carry,a,b);
-not (abar,a);
-xor G3(D,a,b);
-and G4(Bo,abar,b);
-endmodule
-```
+
 
 **RTL Schematic**
-![324707218-46ab0b3a-2711-42ed-ba06-5c24c5c753e8](https://github.com/MoenishBaalan/HALF_ADDER_SUBTRACTOR/assets/147473396/fc69f1e0-6bbb-4971-b149-585696c957b3)
+![322178671-1421594b-45b8-401c-9303-ea64f02acc25](https://github.com/MoenishBaalan/HALF_ADDER_SUBTRACTOR/assets/147473396/0de8c68a-ab7a-4349-84bf-4fc90a749038)
+
+
+**TRUTH TABLE**
+
+![322179774-802e05ee-9412-4b58-a95c-2104c3725edc](https://github.com/MoenishBaalan/HALF_ADDER_SUBTRACTOR/assets/147473396/242cfbbf-4be6-4ec1-96bf-a0ad92cf8605)
 
 
 **Output/TIMING Waveform**
-![324707457-17fa7500-b136-4309-a518-c0df0f652621](https://github.com/MoenishBaalan/HALF_ADDER_SUBTRACTOR/assets/147473396/fc3519e9-a4f6-4140-b32c-8bca79131eae)
+![322178683-22bde68d-0052-4ec7-9e53-855664b79963](https://github.com/MoenishBaalan/HALF_ADDER_SUBTRACTOR/assets/147473396/89b9097b-47d9-4204-9c4d-df3073a8cdfc)
 
-![324707627-eff5f4c7-50da-404f-ac85-96141cb63328](https://github.com/MoenishBaalan/HALF_ADDER_SUBTRACTOR/assets/147473396/c9cea3f5-79b1-4f77-890e-ab95af82bc0d)
+
+
+## HALF SUBTRACTOR
+
+**Program:**
+![322211465-49669bce-5d04-4f25-bb4f-cbb793a72320](https://github.com/MoenishBaalan/HALF_ADDER_SUBTRACTOR/assets/147473396/da17fc06-f448-4997-96db-8be6702d78e9)
+
+
+**RTL Schematic**
+![322211500-1386d1b9-e29a-416a-9ab4-48772f1a3371](https://github.com/MoenishBaalan/HALF_ADDER_SUBTRACTOR/assets/147473396/d4a61747-26ca-4cfa-ac63-3317f1317571)
+
+
+**Truthtable**
+![322211560-bd1bc86e-0fe1-4aeb-b83d-f769277ba7ac](https://github.com/MoenishBaalan/HALF_ADDER_SUBTRACTOR/assets/147473396/158d4a08-4279-4c4a-acc4-62f232098737)
+
+
+**Output/TIMING Waveform**
+![322211506-4e23946b-b66f-4656-8ba4-bf8ff63c43fd](https://github.com/MoenishBaalan/HALF_ADDER_SUBTRACTOR/assets/147473396/b9e688f3-bc67-4bb1-8487-081681aa1148)
 
 
 **Result:**
-The above program is executed successfully.
+
+Thus the program was successfully verified.
